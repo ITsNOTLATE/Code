@@ -9,7 +9,7 @@ public class Factorial {
    void print(){
        for (int i = 0; i < 5; i++) {
            System.out.println(dp[i]);
-           System.out.println(dp[i]);
+
        }
    }
 
