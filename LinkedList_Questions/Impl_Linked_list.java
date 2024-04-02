@@ -3,9 +3,9 @@ package LinkedList_Questions;
 import java.util.LinkedHashSet;
 
 public abstract class Impl_Linked_list implements LinkedList{
+/*
 
-
-    Node<Integer> node=new Node<Integer>(8);
+    Node<Integer> node=new Node<Integer>();
 
     public abstract <K> int letsgo();
 
@@ -44,5 +44,5 @@ public abstract class Impl_Linked_list implements LinkedList{
     @Override
     public <T> int size(T node) {
         return 0;
-    }
+    }*/
 }

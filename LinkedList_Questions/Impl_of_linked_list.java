@@ -4,7 +4,7 @@ import javax.sound.midi.Soundbank;
 
 public class Impl_of_linked_list {
     public static void main(String[] args) {
-        Node node=new Node(1);
+        /*Node node=new Node(1);
         Node node2=new Node(2);
         Node node3=new Node(3);
         Node node4=new Node(4);
@@ -29,7 +29,7 @@ public class Impl_of_linked_list {
             current=current.next;
         }
         System.out.println();
-        /*now reverse the linked list*/
+        *//*now reverse the linked list*//*
 
         Node temp=null;
 
@@ -72,6 +72,6 @@ public class Impl_of_linked_list {
                 }
             }
         }
-
+*/
     }
 }
