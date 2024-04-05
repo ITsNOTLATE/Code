@@ -8,7 +8,7 @@ public class Phonenumber {
         }
         char ch1=s1.charAt(i);
         char ch2=s2.charAt(j);
-        phone(s1,s2,i,j++,);
-        phone(s1,s2,i++,j,);
+       /* phone(s1,s2,i,j++,);
+        phone(s1,s2,i++,j,);*/
     }
 }
