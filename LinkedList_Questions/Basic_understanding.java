@@ -16,32 +16,36 @@ public class Basic_understanding {
         two.next = one;
         System.out.println("how many nodes");
         int n = 0;
-        Node<Integer> head=null;
+        Node<Integer> head = null;
 
-        while(n<=6){
-            Node<Integer> newNode =new Node<>();
-            newNode.data=n;
-            if(head==null){
-                head=newNode;
-            }else{
-                Node<Integer> curr=new Node<>();
-                curr=head;
-                while(curr!=null){
-                    curr=curr.next;
+        while (n <= 6) {
+            Node<Integer> newNode = new Node<>();
+            newNode.data = n;
+            if (head == null) {
+                head = newNode;
+            } else {
+                Node<Integer> curr = new Node<>();
+                curr = head;
+                while (curr != null) {
+                    curr = curr.next;
                 }
-                curr=newNode;
+                curr = newNode;
             }
             n++;
         }
-        Node<Integer> cu=new Node<>();
-        cu=head;
-        while (cu!=null){
+        Node<Integer> cu = new Node<>();
+        cu = head;
+        while (cu != null) {
             System.out.println(cu.data);
-            cu=cu.next;
+            cu = cu.next;
         }
-        TreeNode treeNode=new TreeNode(18);
-        TreeNode treeNode1=new TreeNode(14);
-        TreeNode treeNode2 =null;
+        TreeNode root = new TreeNode(18);
+        TreeNode treeNode1 = new TreeNode(14);
+        TreeNode firstTree = null;
+        firstTree = root;
+        System.out.println(firstTree.data);
+        firstTree.left = treeNode1;
+        System.out.println(firstTree.left.data);
 
 
     }
