@@ -1,11 +1,7 @@
 package AccModi;
 
-public class Client {
+public class Client extends Class1forinterface{
     public static void main(String[] args) {
-        Student student=new Student();
-        student.Name="";
-        student.psp=12;
-        student.roll=1213;
 
     }
 }
